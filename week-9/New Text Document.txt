@@ -1,0 +1,92 @@
+1)
+
+Most search engines build an index based on crawling, which is the process through which engines like Google, Yahoo and others find new pages to index. Mechanisms known as bots or spiders crawl the Web looking for new pages (1). The bots typically start with a list of website URLs determined from previous crawls. When they detects new links on these pages, through tags like HREF and SRC, they add these to the list of sites to index. Then, search engines use their algorithms to provide you with a ranked list from their index of what pages you should be most interested in based on the search terms you used.
+
+Then, the engine will return a list of Web results ranked using its specific algorithm. On Google, other elements like personalized and universal results may also change your page ranking. In personalized results, the search engine utilizes additional information it knows about the user to return results that are directly catered to their interests. Universal search results combine video, images and Google news to create a bigger picture result, which can mean greater competition from other websites for the same keywords.
+
+2)
+
+Numerous factors explain why Bing gives different results than Google. Two of the main reasons are covered on this post.
+
+Search engine specific bots and indexes
+Bing and Google, two popular, crawler-based search engines have unique bots which ‘crawl’ and store keywords within their own index. Each index is therefore a search engine’s representation of how they see the web. So search engines “see” the web differently.
+Unique algorithms place different weight on different things. Most search engines are different because they have unique bots and indexes which rank websites in their own way.
+Bing powers Yahoo but their results are different. This is because each search engine uses different algorithms, ranking queries uniquely, so a search for “belfast” on Yahoo will be different from “belfast” using Bing.
+Personalisation
+Personalisation adapts a system to a specific computer. Calculations predict likes and dislikes to contextualise search results. So a political searcher who searches for “brown” are more likely to get results on Gordon Brown whereas a landscape artist who searches for “brown” are more likely to get information on art products and paint colours.
+Although you might be using a global search engine, for example Google, your results are tailored to your geographic location. IP addresses play the largest role in doing this. Each IP address is similar to a house address. Search engines can find out where these IP addresses are located and personalise results based on this location. Results are therefore different for people who are in different countries.
+
+3)
+
+In HTML, meta tags or meta elements are tags placed in the head section of your code that help define the contents of a web page. For example, a description meta tag is used by Internet search engines to display a description of your page in their search results
+
+Metadata is data (information) about data.
+
+The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable.
+
+Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.
+
+The metadata can be used by browsers (how to display content or reload page), search engines (keywords), or other web services.
+
+4)
+
+<meta name="description" content="A description of the page" />	Use this tag to provide a short description of the page. In some situations this description is used as a part of the snippet shown in the search results
+
+
+Meta Keywords are a specific type of meta tag that appear in the HTML code of a Web page and help tell search engines what the topic of the page is. ... The most important thing to keep in mind when selecting or optimizing your meta keywords is to be sure that each keyword accurately reflects the content of your pages.
+
+5)
+
+Meta tags contain keywords or phrases alerting search engines of a website's content to be included in search results for users requesting related information. Meta tags should be placed in the portion of each Web page you want indexed by the search engines.
+
+6)
+
+Meta tags are invisible tags that provide data about your page to search engines and website visitors. In short, they make it easier for search engines to determine what your content is about, and thus are vital for SEO
+
+does not affect website ranking
+
+7)
+
+Search engine optimization still a great technique to increase your website traffic, brand awareness, leads, sales and revenue. It’s an important element that should mix in your marketing strategy and helps to boost your business. Here are the 10 SEO tips that should help you to improve your website visibility in search engine page rankings.
+
+1. Create an SEO audit
+
+It includes the entire major SEO factor that helps you to determine the all performances of your website. Use Google webmaster tool to identify errors like 404 errors, canonical errors, broken links, redirects, and sitemap errors and fix them that might affect your search engine rankings.
+
+You can check Free Website Auditor
+
+2. Create a sitemap and submit your site to search engines.
+
+Sitemap help you ensure that your pages are indexed by all search engines. There are two types of sitemap mainly used by the people 1st XML sitemap and 2nd HTML site map. So create sitemap and submit into Webmaster tools. It will also help you monitor the health of your website and identify errors.
+
+3. Make your website mobile friendly.
+
+According to Google mobile friendly update your site should be mobile friendly and easily accessible for all mobile devices. So make your website and all WebPages mobile friendly.
+
+4. Use long- tail keyword
+
+Use long tail keyword according to your target geographic location. It will help you with local search engine visibility and also helps you to reach your target audience. For example, if you are using the title Inbound marketing service provider use Inbound marketing service provider in USA
+
+5. Use more relevant and engaging content
+
+Content is the uppermost thing to attract your visitors. So write engaging and attractive content with eye catching title tag. Your content should be unique, high quality and informative not self-promoting.
+
+6. Use engaging and relevant images
+
+Images play a vital role to increase your search engine visibility. Use relevant images with right on-tag and Meta description on your pages and blog posts. To identify your existing images on your website and blog you can use different search engine optimization tools like Screaming frog.
+
+7. Use social media
+
+Nowadays, social media consider as the best platform to increase traffic and website visibility. Working and implementing a good social media strategy is best for your work. So optimize your website for all social media profiles. It can also helpful to understand your targeted audience.
+
+8. Make engagement with the people who engage your content on social media.
+
+Share your content on different social media channel. Interact with those people who like and comment on your post. This conversation marketing tactic helps you get closer to your audience and make more personal relationship with them.
+
+9. Comment on relevant high authority sites.
+
+Blog comments are the best way get backlink and make engagement and build relationship with top bloggers. It will also helpful to drive quality traffic for your websites, improving brand awareness, and even generate leads and sales for your business.
+
+10. Optimize your reputation.
+
+Optimizing your business or brand not only for search engines, but also for user, audiences and customers, especially those that will appear on SERPs. Hence manage your online reputations.

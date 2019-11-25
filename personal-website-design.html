@@ -1,0 +1,463 @@
+<html lang="en">
+  <head>
+    <style>
+      html {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 10px;
+      }
+      body {
+        max-width: 1000px;
+        margin: auto;
+        font-size: 1.9em;
+        padding: 1em;
+      }
+      footer { 
+        border-top: 6px solid #999; 
+        margin-top: 3em;
+        padding-top: 2em;
+      }
+      /* I picked some really awful colors. Curious to see how many of you modify them. */
+      section h1 { 
+        background-color: #f8dea5;
+        padding: .5em;;
+        border-top: 5px solid #995c33;
+        border-radius: 10px;
+        margin-left: -.5em;
+        margin-right: -.5em;
+      }
+      header h1 {
+        background-color: #995c33;
+        color: #ccc;
+        padding: .5em;;
+        border-top: 5px solid #f8dea5;
+        border-radius: 10px;
+        margin-left: -1em;
+        margin-right: -1em;
+      }       
+      header nav ul {
+        list-style-type: none;
+        background-color: #f7c049;
+      }
+      header nav ul li {
+        display: inline-block;
+      }
+      header nav ul li a {
+        color: #995c33;
+        display: block;
+        text-decoration: none;
+        padding: 10px;
+      }
+      header nav ul li a:hover {
+        background-color: #f8dea5;
+      }
+      #project-plan dt {
+        border-top: 2px solid #000;
+        font-weight: bold;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      #project-plan dd:last-child {
+        border-bottom: 6px solid #000;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
+        margin-left: inherit;
+        padding-left: 2em;
+      }
+      #development-guide ul li {
+        line-height: 1.5;
+      }
+      ul.structure,
+      ul.structure ul {
+        list-style: none;
+      }
+      ul.structure li.folder:before {
+        content: "\1F4C1";
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-right: 0.5em;
+      }
+      ul.structure li:before {
+        content: "\1f4c4";
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-right: 0.5em;
+      }
+      .colorcontainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 1em;
+      }
+      .color-item {
+        border: 1px solid #000;
+        padding: 1em;
+        margin: 0.5em;
+      }
+      .color-chip {
+        width: 100px;
+        height: 100px;
+      }
+      dl.styles-guide dt {
+        font-weight: bold;
+        border-top: 1px dashed #333;
+        margin-top: 1em;
+        padding-top: 1em;
+      }
+      .code {
+        font-family: "Courier New", Courier, monospace;
+        color: #993333;
+        font-size: 0.9em;
+        margin-left: 2em;
+      }
+      .highlight {
+        background-color: f7c049;
+        font-weight: bold;
+      }
+      img { width: 100%; }
+    </style>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>Your site name</title>
+  </head>
+  <body>
+    <header>
+      <h1>Site: Watch Collection As A Hobby</h1>
+      <p>
+        Developer: Sadman Sakib Hassan (Ushan)<br />
+        <!-- this will automatically update with the file date; no need to change it-->
+        <span id="modified"></span>
+        <!--end date section-->
+      </p>
+      <nav>
+        <ul>
+          <li><a href="#project-plan">Project plan</a></li>
+          <li><a href="#development-guide">Development guide</a></li>
+          <li><a href="#design-guide">Design guide</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="project-plan">
+        <h1>Project Plan</h1>
+        <dl>
+          <dt>Tittle</dt>
+          <dd><p>Watch Collection As A Hobby</p></dd>
+
+          <dt>Goal</dt>
+          <dd>
+            <p>
+              To educate people about the quality and the procedure that goes behing on maing a perfect timepiece and
+to inform people about the hobby and passion that collectors have
+
+            </p>
+          </dd>
+          <dt>Target Audience</dt>
+          <dd>
+            <p>
+              People who are into history or into collecting rare pieces.
+Students and workers who are interested in timpieces.
+People who are interested in knowing about the mechanics and engineering of the movement inside the watch and the
+Age 10-60
+ 
+            </p>
+          </dd>
+          <dt>Main Features</dt>
+          <dd>
+            <p>
+              This site will explain about watch collectors passion and will showcase a famous watch which is admired by watch collectors. It will frequently asked questions and contact form
+            </p>
+          </dd>
+          <dt>Personality</dt>
+          <dd>
+            <p>Friendly.
+Elegant.
+Designed to provide the audience an idea about the concept of wristwatches.
+Passionate.
+Enthuastic.
+Willing to share knowledge or inspire.</</p>
+            <p>The heading color gives a warm feeling to the topic.
+The background color is aqua which provides relaxing and trust emotions. 
+Orange is combination of red and yellow, a warm vibrant color with connotations of energy and flamboyance. It's less intense or aggressive than red. It gives the site a fun and bright appearance.
+Green highlights the picture and gives the background a soothing and relaxing feeling it also represents the dial of the watch which has a green dial watch and will atrract more people as the color on the dial has a huge attraction or fanbase and is known as "Hulk" which resembles the color green.
+The green color provides a clear background color for the conclusion's image and provides a clean and elegant look.
+The purple color ar the footer brings childish and fun concept to the site.
+The watch making picture at the begining will give a sense about the website and will attract more audience.
+The darker color around the contact forum keeps it seperated and creates a dark or end feeling.
+</p>
+          </dd>
+          <dt>Limiting Factors</dt>
+          <dd>
+            <p>
+              My Target audience are watch enthuasists or people who are interested or wants yo be educated in knowing about the history of watch movements and the procedures that take place with them, my limitations would be to educate them and not to use the website for selling or buying purposes and to provide them with enough knowledge so that they can have a good idea about buying their first watch or looking for something that would be worth their price.            </p>
+          </dd>
+        </dl>
+      </section>
+      <section id="development-guide">
+        <h1>Development guide</h1>
+        <h2>Site structure</h2>
+        <ul>
+          <li>
+            Root Directory
+            <ul>
+              <li>images directory – contains jpgs and gifs</li>
+              <li>styles directory – contains all of the style sheets</li>
+              <li>index.html – Audience, site purpose and overview</li>
+              <li>about.html – information about myself, picture and information about watch collection </li>
+              <li>
+                frequently-asked-questions.html - frequently asked questions about the topic</li>
+              <li>
+                website-plan.html - main contents, information, pictures, frequently asked questions, contact forum.
+              </li>
+                         </ul>
+          </li>
+        </ul>
+
+        <h2>Visual representation of site structure</h2>
+        <ul class="structure">
+          <!-- displays as page icon unless you use class="folder" -->
+          <li class="folder">
+            Root Directory
+            <ul>
+              <li class="folder">images directory – contains jpgs</li>
+              <li class="folder">
+                styles directory – contains all of the style sheets
+              </li>
+              <li class="folder">
+                scripts directory – contains all of the script
+              </li>
+              <li>index.html – Audience, site purpose and overview
+              </li>
+              <li>
+                about.html – information about myself, picture and information about watch collection
+              </li>
+              <li>
+                frequently-asked-questions.html - frequently asked questions about the topic
+              </li>
+              <li>
+                
+                website-plan.html - main contents, information, pictures, contact forum.
+              </li>
+                        
+        </ul>
+        <h2>Navigation elements</h2>
+        <p>
+          Navigation – There is a navigation bar on <span class="highlight">(top of the page hat links to all pages in the site.
+        </p>
+        <p>
+          Text and Pictures – Some text and pictures will be a link to another page.        </p>
+        <p>
+        <h3>Navigation structure</h3>
+        <ul>
+          <li>Home</li>
+<p> Site Purpose, Audience, Overview.(3 links to to other websites)
+          <li>
+              <li>About me</li>
+               <p> Information about watches and the creator/ the watches I prefer and 1 link to other website (links of image to other wbsite)</p>
+<li>Frequently Asked Questions</li>
+<p>Frequently asked questions about the topic</p>
+<li>Main</li><p> Main Content, pictures and Contact Forum.(links to other parts of the website)</p>
+            </ul>
+                  <h2>HTML template</h2>
+        <p>
+My Template <span> 
+          <a href="template.html">this HTML template</a>.
+        </p></span>
+        <h2>Wireframe site</h2>
+        <p>
+            <span class="highlight">This (<a href="wireframe-site.html">wireframe</a>)</span> will let you navigate
+          the basic structure of my site.
+        </p>
+      </section>
+      <section id="design-guide">
+        <h1>Design guide</h1>
+        <h2>Color Palette</h2>
+        <p>
+          The following is the list of colors that may be used. Tints or changes
+          in opacity may also be used as long as they compliment each other.
+        </p>
+        <p><span class="highlight">Replace the color values with your own colors. Leave the rest of the code alone unless you really want to recode it.</span></p>
+        <div class="colorcontainer">
+          <div class="color-item">
+            <p>Dark Orange</p>
+            <p>#FF8000;</p>
+            <div class="color-chip" style="background-color: #FF8000;"></div>
+          </div>
+          <div class="color-item">
+            <p>Magnolia</p>
+            <p>#F8F0FF;</p>
+            <div class="color-chip" style="background-color: #F8F0FF;"></div>
+          </div>
+          <div class="color-item">
+            <p>Tyrian Purple</p>
+            <p>#57002B</p>
+            <div class="color-chip" style="background-color: #57002B"></div>
+          </div>
+          <div class="color-item">
+            <p>Myrtle</p>
+            <p>#004200</p>
+            <div class="color-chip" style="background-color: #004200"></div>
+          </div>
+          <div class="color-item">
+            <p>Electric Purple</p>
+            <p>#9900ff;</p>
+            <div class="color-chip" style="background-color: #9900ff;"></div>
+          </div>
+          <div class="color-item">
+            <p>Peach Orange</p>
+            <p>#FFC894;</p>
+            <div class="color-chip" style="background-color: #FFC894;"></div>
+          </div>
+        </div>
+
+        <h2>Media assets</h2>
+        <h3>General Guidelines</h3>
+        <ul>
+          <li>
+            <p><span class="highlight">Example text:</span> Images optimized as JPG. Photos generally saved as JPG.</p>
+            <p>(images/rolex-320.jpg,
+             images/rolex-480.jpg,
+             images/rolex-800.jpg,
+             images/rolex-1200.jpg, 
+             images/rolex-hulk.jpg
+             images/watch-collection.jpg
+                .)</p>
+          </li><li>rolex-hulk.jpg, rolex.jpg and watch collection.jpg are from public domains</li>
+          
+          <li>List copyrighted images used with permission</li>
+          <p>rolex.jpg, rolex-hulk.jpg, watch-collection.jpg 
+
+<p>links for the original image</p>
+<a href="https://dodskypict.com/rolex-wallpaper/rolex-wallpapers-high-quality-resolution/">Rolex.jpg,</a>
+<a href="https://www.alphamen.asia/wp-content/uploads/2019/08/rolex-wristwatch-collection-1024x504.jpg">Watch-Making.jpg,</a>
+<a href="http://iglaru.co/wp-content/uploads/2019/07/rolex-sports-watch-watches-price-in-india-top.jpg">Rolex-Hulk,jpg.</a>
+<a href="https://i.redd.it/x5qrwbsl6jbz.jpg">Watch-Collection.jpg.</a>
+
+          <li>Mention if any photos or images are your own</li>
+           <p> No own photos used</p>
+        </ul>
+        <h2>Styles guide 
+          <span class="highlight">
+
+        </span>
+      </h2>
+        <dl class="styles-guide">
+          <dt>Background</dt>
+          <dd>
+            <p>Background is Myrtle (Emerald Green)</p>
+            <p class="code">{background-color: #004200}</p>
+          </dd>
+          <dt>Default font</dt>
+          <dd>
+            <p>Text is white smoke, 12 pixels</p>
+            <p class="code">p { font-size: 12px; color: #f5f5f5;}</p>
+          </dd>
+          <dt>Header</dt>
+          <dd>
+            <p>
+              The header section is 235px tall, positioned along the top of each page with the 
+              logo centered in the frame. The background is Peach Orange.
+            </p>
+            <p class="code">
+              
+header {
+    background-color: #FFC894;
+    foreground-color: #004200;
+    border-bottom-color: #5900b3;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    line-height: 1.8;
+    padding: 0.6rem;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    margin-right: 45px;
+    margin-left: 450px;
+    display: block;
+float: middle;
+position: clip;
+height: 90px;
+  width: 80%;
+
+}<br>}</p>
+          </dd>
+          <dt>Navigation</dt>
+          <dd>
+            <p>
+                The main navigation is 100px tall, positioned just below the header with a 
+                background color of Dark Orange and Dark Back font color.
+            </p>
+            <p class="code">
+              nav { height: 100px; background-color: #FF8000 color: #000000 }
+            </p>
+          </dd>
+          <dt>Images</dt>
+          <dd>
+            <p>
+              Images will be over Magnolia background with a dark black border
+              around the container
+            </p>
+            <p class="code">
+              figure { background-color: #F8F0FF border: 2px solid #000000 }
+            </p>
+            <p class="code">img { padding: 1em; }</p>
+          </dd>
+          <dt>Links</dt>
+          <dd>
+            <p>
+              Links will be Red. On hover, they will have a Harley Davidson Orange background and a black border.</p>
+            </p>
+            <p class="code">
+a:link { color: #e60000; }
+
+a:visited { color: #990073; }
+
+a:hover { color: #cc3300; background-color: #ebebe0; text-decoration: none; }
+
+a:active { color: #ebebe0; background-color: #cc3300; text-decoration: none; }</p>
+          </dd>
+        </dl>
+        <h2>Layout sketch</h2>
+        <img src="images/web-plan.jpg" alt="Site layout sketch">
+      </section>
+<section>
+<h4>Storyboard Design (BONUS)</h4>
+<img src="images/concept-1.jpg" alt="Concept 1">
+<img src="images/concept-1.5.jpg" alt="Concept 1.5">
+<img src="images/concept-2.jpg" alt="Concept 2">
+<img src="images/concept-3.jpg" alt="Concept 3">
+</section>
+
+
+
+
+    </main>
+    <footer>
+       &copySadman Sakib Hassan (Ushan), Student at <a href="http://www.cascadia.edu/" target="_blank">Cascadia College</a>
+ 
+    </footer>
+    <!-- Enable includes -->
+    <script src="../scripts/includes.js"></script>
+
+    <!-- Script below includes file date update -->
+
+    <script>
+      includeHTML();
+      // get last updated date as a new date object
+      var modDate = new Date(document.lastModified);
+      // set up some formatting options
+      var options = {
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      };
+      // format it
+      var modDateString = modDate.toLocaleDateString("en-US", options);
+      // display it in the document
+      document.getElementById("modified").innerHTML =
+        "Updated: " + modDateString;
+    </script>
+  </body>
+</html>
+

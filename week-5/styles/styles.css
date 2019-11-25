@@ -1,0 +1,248 @@
+html { font-size: 10px;
+font-family: Helvetica, Arial, sans-serif; }
+
+
+header, main { padding: 0.4rem;
+background-color:10px green solid
+}
+ 
+
+
+
+</head>
+
+<style>
+
+
+
+
+
+ul {
+  list-style-type: none;
+  margin: 2;
+  padding: 0.5;
+  overflow: hidden;
+  background-color: #333;
+ 
+ 
+}/*settings for <ul>*/
+
+header {
+    background-color: #660000;
+    border-bottom-color: #4dff4d;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    line-height: 2.6;
+    padding: 0.8rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    display: block;
+float: middle;
+position: clip;
+height: 100px;
+  width: 90%;
+}/*settings for the <header>*/
+
+
+
+.bar {
+  color: green;
+  column-count: 3;
+column-gap: 10px;
+
+}
+
+.bit-columns {color: green;
+  column-count: 3;/* This will automatically split the content inside a tag whose class="bit-columns" into 3 columns */
+column-gap: 40px;
+color: unset;
+min-width: 321px;
+max-width: 600px
+ position: right;
+
+}/*settings for the class=bit-colums*/
+
+
+
+section { line-height: 15px;
+	font-size: 10px;
+	font-weight: normal;
+clear: left;
+}/*settings for <section>*/
+
+h2 {
+  display: block;
+ 
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 10em;
+  margin-right: 5em;
+  font-weight: bold;
+font-size: 36px; 
+    position: relative; 
+
+
+}/*settings for <h2>*/
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}/*settings for <h3>*/
+
+p.intro {
+    background-color:blue;
+    color:white;
+    border:1px solid grey;
+    padding:30px;
+    margin:30px;
+    font-size:150%;
+min-width: 321px;
+max-width: 600px
+
+ 
+}/*settings for <p class='intro'>*/
+
+
+
+
+/* This says, for a screen whose size is anything below 600px, make the content inside a tag whose class="bit-columns" into 2 columns. It will override the default of 3 columns set above, since this is more specific. */
+
+@media screen and (max-width: 600px) {
+.bit-columns {
+column-count: 2;
+}
+}
+
+/* This says, for a screen whose size is anything below 320px, for content inside a tag whose class="bit-columns", completely undo the column count. It will override the 2 columns set above, since this is more specific. Default is 3, unless smaller than 600px in which case it's 2, unless smaller than 320px, in which case don't put it in columns.*/
+
+@media screen and (max-width: 320px) {
+.bit-columns {
+column-count: unset;
+}
+}
+
+
+
+
+
+figure {
+float: left;
+padding-right: 12em;
+width: 50%;
+}/*settings for <figure>*/
+
+
+nav#ushan-navigation ul { list-style-type: none; }
+
+nav#ushan-navigation ul li {
+display: inline-block;
+padding: 1.5em;
+border-right: 2px solid red;
+margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+float: right;
+position: clip;
+height: 100px;
+  width: 90%;
+}
+
+section#rolex-1200 img {
+float: left;
+padding-right: 3em;
+width: 60%;
+}
+
+
+
+footer {
+ font-family: Verdana, Geneva, sans-serif;
+ font-size: 0.7em;
+ font-weight: bold;
+ color: #FFF;
+ background-color: #666;
+ padding: 10px;
+ margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+ height: auto;
+ width: 90%;
+display: block;
+float: middle;
+position: static;
+position: clip;
+height: 50px;
+  width: 30%;
+}/*settings for <footer>*/
+
+
+
+li {
+  float: left;
+display: inline;
+  display: block;
+  color: #white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+background-color: #06bcf9;
+font-size: medium;
+}/*settings for <li>*/
+
+
+
+body {
+    background-color: #1a6600;
+}
+p {font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 12px;
+ color: #039;
+ background-color: #FCEBB6;
+
+ max-width: 1400px;
+    line-height: 1.4;
+   
+width: 1400px;
+    margin: auto;
+  border: 3px solid #73AD21;
+}/*settings for <body>*/
+
+main {max-width: 150px;
+      margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 25px;
+display: contents;
+float: right;
+position: clip;
+height: 100px;
+  width: 90%;
+}/*settings for <main>*/
+
+a:link { color: #e60000; }
+
+a:visited { color: #990073; }
+
+a:hover { color: #cc3300; background-color: #ebebe0; text-decoration: none; }
+
+a:active { color: #ebebe0; background-color: #cc3300; text-decoration: none; }
+
+
+</style>
+
+
+
+
+
+
+
